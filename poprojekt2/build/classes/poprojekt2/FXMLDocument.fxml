@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="543.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="poprojekt2.FXMLDocumentController">
+   <children>
+      <Button fx:id="dodajKlienta" layoutX="555.0" layoutY="34.0" mnemonicParsing="false" onAction="#handleDodajKlienta" text="Dodaj Klienta" />
+      <Button fx:id="dodajDostawce" layoutX="547.0" layoutY="66.0" mnemonicParsing="false" onAction="#handleDodajDostawce" text="Dodaj Dostawce" />
+      <Button fx:id="dodajPosilek" layoutX="554.0" layoutY="98.0" mnemonicParsing="false" onAction="#handleDodajPosilek" text="Dodaj Posiłek" />
+      <Button fx:id="noweZamowienie" layoutX="541.0" layoutY="131.0" mnemonicParsing="false" onAction="#handleNoweZamowienie" text="Nowe Zamówienie" />
+      <Button fx:id="usunKlienta" layoutX="557.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleUsunKlienta" text="Usuń Klienta" />
+      <Button fx:id="powrotDostawcy" layoutX="571.0" layoutY="399.0" mnemonicParsing="false" onAction="#handlePowrotDostawcy" text="Powrót" />
+      <Button fx:id="usunDostawce" layoutX="549.0" layoutY="434.0" mnemonicParsing="false" onAction="#handleUsunDostawce" text="Usuń Dostawce" />
+      <AnchorPane fx:id="mapa" layoutX="27.0" layoutY="34.0" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #177979;" AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="206.0" AnchorPane.topAnchor="34.0">
+         <children>
+            <ImageView fx:id="ikonaRestauracji" fitHeight="42.0" fitWidth="38.0" layoutX="189.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="224.0" AnchorPane.leftAnchor="189.0" AnchorPane.rightAnchor="226.0" AnchorPane.topAnchor="189.0">
+               <image>
+                  <Image url="@../Obrazki/restauracja.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="poleTekstowe" layoutX="517.0" layoutY="174.0" prefHeight="171.0" prefWidth="147.0" />
+   </children>
+</AnchorPane>
